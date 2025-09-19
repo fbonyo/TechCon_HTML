@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCon 2024 - The Future of Technology</title>
+    <!-- Load Tailwind CSS from CDN for modern, responsive styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+<body class="min-h-screen flex flex-col bg-gray-50 text-gray-800">
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white shadow-lg py-4 px-6 md:px-12 flex flex-col md:flex-row justify-between items-center rounded-b-xl">
+        <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight">TechCon 2024</h1>
+        <!-- Navigation Menu -->
+        <nav class="mt-4 md:mt-0">
+            <ul class="flex space-x-4 sm:space-x-8">
+                <li><a href="about.html" class="text-lg font-medium hover:text-blue-200 transition-colors duration-300">About</a></li>
+                <li><a href="schedule.html" class="text-lg font-medium hover:text-blue-200 transition-colors duration-300">Schedule</a></li>
+                <li><a href="register.html" class="text-lg font-medium hover:text-blue-200 transition-colors duration-300">Register</a></li>
+                <li><a href="contact.html" class="text-lg font-medium hover:text-blue-200 transition-colors duration-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="flex-grow p-6 md:p-12">
+        <section class="max-w-4xl mx-auto bg-white p-6 md:p-10 rounded-xl shadow-lg border border-gray-200">
+            <h2 class="text-3xl font-bold text-center mb-6">Welcome to the Premier Technology Conference of the Year</h2>
+            <p class="text-lg leading-relaxed text-gray-700 text-center mb-8">
+                Join us at TechCon 2024 to explore the latest innovations, connect with industry leaders, and shape the future of technology. This year's event will feature groundbreaking talks on AI, cybersecurity, quantum computing, and sustainable tech.
+            </p>
+            
+            <!-- Embedded Promotional Video -->
+            <div class="aspect-w-16 aspect-h-9 w-full rounded-lg overflow-hidden shadow-xl border-4 border-gray-300">
+                <video controls class="w-full h-auto">
+                    <!-- Placeholder video source. Replace with your actual video file. -->
+                    <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm">
+                    <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+                    <!-- Add track for accessibility/subtitles -->
+                    <track kind="captions" srclang="en" src="/path/to/captions.vtt" label="English Captions">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p class="mt-4 text-sm text-gray-500 text-center">Video: A promotional video highlighting the conference.</p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-gray-300 text-center py-6 px-4 mt-8 rounded-t-xl">
+        <p class="text-sm">&copy; TechCon 2024. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
