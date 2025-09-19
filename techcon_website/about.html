@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About TechCon 2024</title>
+    <!-- Load Tailwind CSS from CDN for modern, responsive styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            @apply bg-gray-50 text-gray-800;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white shadow-lg py-4 px-6 md:px-12 flex flex-col md:flex-row justify-between items-center rounded-b-xl">
+        <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight">About TechCon 2024</h1>
+        <!-- Navigation Menu -->
+        <nav class="mt-4 md:mt-0">
+            <ul class="flex space-x-4 sm:space-x-8">
+                <li><a href="index.html" class="text-lg font-medium hover:text-blue-200 transition-colors duration-300">Home</a></li>
+                <li><a href="about.html" class="text-lg font-medium hover:text-blue-200 transition-colors duration-300">About</a></li>
+                <li><a href="schedule.html" class="text-lg font-medium hover:text-blue-200 transition-colors duration-300">Schedule</a></li>
+                <li><a href="register.html" class="text-lg font-medium hover:text-blue-200 transition-colors duration-300">Register</a></li>
+                <li><a href="contact.html" class="text-lg font-medium hover:text-blue-200 transition-colors duration-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="flex-grow p-6 md:p-12">
+        <article class="max-w-4xl mx-auto bg-white p-6 md:p-10 rounded-xl shadow-lg border border-gray-200 mb-8">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-6">Our History</h2>
+            <p class="text-lg leading-relaxed text-gray-700 mb-6">
+                Founded in 2010 by a group of passionate technologists, TechCon began as a small, local gathering aimed at fostering innovation. What started as a modest meetup in a university auditorium has since grown into a premier global conference, attracting thousands of attendees and the brightest minds in the industry. Each year, we've expanded our focus to cover new frontiers, from the rise of mobile computing to the era of artificial intelligence.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8">
+                <img src="https://placehold.co/400x250/E2E8F0/1A202C?text=Historical+Image+1" alt="Early conference attendees gathering in a small auditorium." class="rounded-lg shadow-lg max-w-full h-auto">
+                <img src="https://placehold.co/400x250/E2E8F0/1A202C?text=Historical+Image+2" alt="A photo from TechCon 2015 showing a speaker presenting to a large crowd." class="rounded-lg shadow-lg max-w-full h-auto">
+            </div>
+        </article>
+
+        <article class="max-w-4xl mx-auto bg-white p-6 md:p-10 rounded-xl shadow-lg border border-gray-200 mb-8">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-6">Our Mission</h2>
+            <p class="text-lg leading-relaxed text-gray-700 mb-6 text-center">
+                Our mission is to empower the global tech community by providing a platform for knowledge sharing, collaboration, and inspiration. We strive to highlight emerging trends, promote ethical technology development, and connect individuals who are passionate about building a better future through innovation.
+            </p>
+            <div class="flex justify-center items-center mt-6">
+                 <!-- Example of a simple icon using a div and text -->
+                <div class="text-5xl text-blue-500 hover:text-blue-600 transition-colors duration-300">💡</div>
+            </div>
+        </article>
+
+        <article class="max-w-4xl mx-auto bg-white p-6 md:p-10 rounded-xl shadow-lg border border-gray-200">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-6">Past Speakers</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="flex flex-col items-center text-center">
+                    <img src="https://placehold.co/150x150/E2E8F0/1A202C?text=Speaker+1" alt="Photo of Dr. Anya Sharma, a software architecture expert." class="rounded-full w-32 h-32 mb-4 object-cover shadow-md">
+                    <h3 class="text-xl font-semibold">Dr. Anya Sharma</h3>
+                    <p class="text-sm text-gray-600 mb-2">Lead AI Researcher</p>
+                    <p class="text-sm text-gray-500">Known for her pioneering work in neural network optimization and developing more efficient machine learning models.</p>
+                </div>
+                <div class="flex flex-col items-center text-center">
+                    <img src="https://placehold.co/150x150/E2E8F0/1A202C?text=Speaker+2" alt="Photo of Marcus Chen, a cybersecurity strategist." class="rounded-full w-32 h-32 mb-4 object-cover shadow-md">
+                    <h3 class="text-xl font-semibold">Marcus Chen</h3>
+                    <p class="text-sm text-gray-600 mb-2">Cybersecurity Strategist</p>
+                    <p class="text-sm text-gray-500">An expert in enterprise-level cybersecurity, he has spoken at TechCon on threat intelligence and zero-trust frameworks.</p>
+                </div>
+                <div class="flex flex-col items-center text-center">
+                    <img src="https://placehold.co/150x150/E2E8F0/1A202C?text=Speaker+3" alt="Photo of Sarah Li, a quantum computing engineer." class="rounded-full w-32 h-32 mb-4 object-cover shadow-md">
+                    <h3 class="text-xl font-semibold">Sarah Li</h3>
+                    <p class="text-sm text-gray-600 mb-2">Quantum Computing Engineer</p>
+                    <p class="text-sm text-gray-500">A trailblazer in the field of quantum algorithm development, her work aims to make quantum computing more accessible.</p>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer Section (Consistent with homepage) -->
+    <footer class="bg-gray-800 text-gray-300 text-center py-6 px-4 mt-8 rounded-t-xl">
+        <p class="text-sm">&copy; TechCon 2024. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
