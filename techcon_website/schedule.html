@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule for TechCon 2024</title>
+    <!-- Load Tailwind CSS from CDN for modern, responsive styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            @apply bg-gray-50 text-gray-800;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #e5e7eb;
+            padding: 12px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white shadow-lg py-4 px-6 md:px-12 flex flex-col md:flex-row justify-between items-center rounded-b-xl">
+        <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight">Schedule for TechCon 2024</h1>
+        <!-- Navigation Menu -->
+        <nav class="mt-4 md:mt-0">
+            <ul class="flex space-x-4 sm:space-x-8">
+                <li><a href="index.html" class="text-lg font-medium hover:text-blue-200 transition-colors duration-300">Home</a></li>
+                <li><a href="about.html" class="text-lg font-medium hover:text-blue-200 transition-colors duration-300">About</a></li>
+                <li><a href="schedule.html" class="text-lg font-medium hover:text-blue-200 transition-colors duration-300">Schedule</a></li>
+                <li><a href="register.html" class="text-lg font-medium hover:text-blue-200 transition-colors duration-300">Register</a></li>
+                <li><a href="contact.html" class="text-lg font-medium hover:text-blue-200 transition-colors duration-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="flex-grow p-6 md:p-12">
+        <div class="max-w-6xl mx-auto bg-white p-6 md:p-10 rounded-xl shadow-lg border border-gray-200">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-6">Full Conference Schedule</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm sm:text-base bg-white rounded-lg overflow-hidden shadow-md">
+                    <caption>Detailed Schedule of Events for TechCon 2024</caption>
+                    <thead class="bg-gray-200 text-gray-700 uppercase tracking-wider">
+                        <tr>
+                            <th scope="col" class="py-3 px-4">Time</th>
+                            <th scope="col" class="py-3 px-4">Session</th>
+                            <th scope="col" class="py-3 px-4">Speaker</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr>
+                            <td class="py-4 px-4 font-semibold text-gray-900">9:00 AM - 10:00 AM</td>
+                            <td class="py-4 px-4 text-gray-700">Opening Keynote: The Future of AI</td>
+                            <td class="py-4 px-4 text-gray-700">Dr. Anya Sharma</td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-4 font-semibold text-gray-900">10:15 AM - 11:15 AM</td>
+                            <td class="py-4 px-4 text-gray-700">Cybersecurity in a Connected World</td>
+                            <td class="py-4 px-4 text-gray-700">Marcus Chen</td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-4 font-semibold text-gray-900">11:30 AM - 12:30 PM</td>
+                            <td class="py-4 px-4 text-gray-700">Breakout Session: Quantum Computing Basics</td>
+                            <td class="py-4 px-4 text-gray-700">Sarah Li</td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-4 font-semibold text-gray-900">12:30 PM - 1:30 PM</td>
+                            <td class="py-4 px-4 text-gray-700">Lunch Break</td>
+                            <td class="py-4 px-4 text-gray-700">N/A</td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-4 font-semibold text-gray-900">1:30 PM - 2:30 PM</td>
+                            <td class="py-4 px-4 text-gray-700">Web Development Trends for 2024</td>
+                            <td class="py-4 px-4 text-gray-700">Jessica Miller</td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-4 font-semibold text-gray-900">2:45 PM - 3:45 PM</td>
+                            <td class="py-4 px-4 text-gray-700">Panel Discussion: Ethical AI</td>
+                            <td class="py-4 px-4 text-gray-700">All Speakers</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section (Consistent with other pages) -->
+    <footer class="bg-gray-800 text-gray-300 text-center py-6 px-4 mt-8 rounded-t-xl">
+        <p class="text-sm">&copy; TechCon 2024. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
